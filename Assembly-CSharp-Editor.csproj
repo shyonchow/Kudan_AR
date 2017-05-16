@@ -50,13 +50,12 @@
      <Compile Include="Assets\KudanAR\Editor\MarkerTransformDriverEditor.cs" />
      <Compile Include="Assets\KudanAR\Editor\TrackableDataEditor.cs" />
      <Compile Include="Assets\KudanAR\Editor\TrackingMethodMarkerEditor.cs" />
+     <None Include="Assets\Editor\GitHub\CREDITS.txt" />
      <None Include="Assets\KudanAR\Materials\Background.shader" />
      <None Include="Assets\KudanAR\Materials\ShadowCatcher.shader" />
+     <None Include="Assets\Editor\GitHub\EULA.txt" />
      <None Include="Assets\KudanAR\Materials\DebugFlat.shader" />
      <None Include="Assets\KudanAR\Resources\YpCbCr.shader" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>/Applications/Unity 5.5/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>/Applications/Unity 5.5/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
@@ -99,9 +98,6 @@
  <Reference Include="UnityEngine.HoloLens">
  <HintPath>/Applications/Unity 5.5/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
  </Reference>
- <Reference Include="UnityEngine.Purchasing">
- <HintPath>/Applications/Unity 5.5/Unity.app/Contents/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
- </Reference>
  <Reference Include="UnityEditor.VR">
  <HintPath>/Applications/Unity 5.5/Unity.app/Contents/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll</HintPath>
  </Reference>
@@ -128,6 +124,45 @@
  </Reference>
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
  <HintPath>/Applications/Unity 5.5/Unity.app/Contents/PlaybackEngines/macstandalonesupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="Octokit">
+ <HintPath>/Users/shychowdhury/Repos/Unity/Kudan_AR/Assets/Editor/GitHub/Octokit.dll</HintPath>
+ </Reference>
+ <Reference Include="GitHub.Logging">
+ <HintPath>/Users/shychowdhury/Repos/Unity/Kudan_AR/Assets/Editor/GitHub/GitHub.Logging.dll</HintPath>
+ </Reference>
+ <Reference Include="Rackspace.Threading">
+ <HintPath>/Users/shychowdhury/Repos/Unity/Kudan_AR/Assets/Editor/GitHub/Rackspace.Threading.dll</HintPath>
+ </Reference>
+ <Reference Include="Mono.Security">
+ <HintPath>/Users/shychowdhury/Repos/Unity/Kudan_AR/Assets/Editor/GitHub/Mono.Security.dll</HintPath>
+ </Reference>
+ <Reference Include="GitHub.Unity">
+ <HintPath>/Users/shychowdhury/Repos/Unity/Kudan_AR/Assets/Editor/GitHub/GitHub.Unity.dll</HintPath>
+ </Reference>
+ <Reference Include="ReadOnlyCollectionsInterfaces">
+ <HintPath>/Users/shychowdhury/Repos/Unity/Kudan_AR/Assets/Editor/GitHub/ReadOnlyCollectionsInterfaces.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading">
+ <HintPath>/Users/shychowdhury/Repos/Unity/Kudan_AR/Assets/Editor/GitHub/System.Threading.dll</HintPath>
+ </Reference>
+ <Reference Include="GitHub.Api">
+ <HintPath>/Users/shychowdhury/Repos/Unity/Kudan_AR/Assets/Editor/GitHub/GitHub.Api.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Http">
+ <HintPath>/Users/shychowdhury/Repos/Unity/Kudan_AR/Assets/Editor/GitHub/System.Net.Http.dll</HintPath>
+ </Reference>
+ <Reference Include="AsyncBridge.Net35">
+ <HintPath>/Users/shychowdhury/Repos/Unity/Kudan_AR/Assets/Editor/GitHub/AsyncBridge.Net35.dll</HintPath>
+ </Reference>
+ <Reference Include="Octokit-Extensions35">
+ <HintPath>/Users/shychowdhury/Repos/Unity/Kudan_AR/Assets/Editor/GitHub/Octokit-Extensions35.dll</HintPath>
+ </Reference>
+ <Reference Include="ICSharpCode.SharpZipLib">
+ <HintPath>/Users/shychowdhury/Repos/Unity/Kudan_AR/Assets/Editor/GitHub/ICSharpCode.SharpZipLib.dll</HintPath>
+ </Reference>
+ <Reference Include="sfw.net">
+ <HintPath>/Users/shychowdhury/Repos/Unity/Kudan_AR/Assets/Editor/GitHub/sfw.net.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>/Applications/Unity 5.5/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
